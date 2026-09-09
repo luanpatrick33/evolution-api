@@ -17,7 +17,7 @@
     "strictNullChecks": false,
     "incremental": true,
     "noImplicitAny": false,
-    "baseUrl": ".",
+    
     "paths": {
       "@api/*": ["./src/api/*"],
       "@cache/*": ["./src/cache/*"],
@@ -27,7 +27,7 @@
       "@utils/*": ["./src/utils/*"],
       "@validate/*": ["./src/validate/*"]
     },
-    "moduleResolution": "Node"
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "./test", "./dist", "./prisma"],
   "include": [
